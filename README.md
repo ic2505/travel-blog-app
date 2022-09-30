@@ -1,70 +1,23 @@
-# Getting Started with Create React App
+# Phase-2-App
+## Application
+Our bucklet-list application will be a figital bucket list: users will be able to make profiles where they can post and view tasks they want to complete before they die (i.e: trips they want to take). These tasks will be displayed as cards on the user's page, which they can click on to see details about their task (i.e.: a journal entry with pictures about their trip to Venice). 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### MVP Core Features
+This application will use at least six components: App, Home, User (for user profiles), Cardlist (to hold the "bucket list cards"), Cards (to store code for each card, which will display the tasks), and Blog (to store code for the blog entries where users can memorialize their bucket list tasks). 
 
-## Available Scripts
+There will be at least three client-side routes using React Router: routing to a userpage, routing to a blog entry, and routing back to the homepage. They will be able to do this via navigation buttons. 
 
-In the project directory, you can run:
+We will be creating our own RESTful API for the backend to hold user information and bucket list tasks. The tasks will include a title, a description, a picture, and a date. 
 
-### `npm start`
+Users will be able to view their bucket list via task cards, which will display some minimum information about the task on their bucket list. They will be able to post new tasks with a controlled submittable form. They will also be able to edit and delete their own tasks with a button and conditional form. They will also be able to click on each card and be routed to a blog entry page where they can add and display details about the task. (For example, plans for a trip, as well as details and pictures from that trip).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Component Tree Draft
+Component tree is subject to change as we add code, specially when we get into stretch goals. But for the MVP, with App at the top of the tree:  
+App -> Home -> User -> CardList -> Card -> Blog
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Stretch Goals 
+1. MVP cards will be static cards with information. But, if there is time, we hope to make flip cards that display a picture or icon on the front and details about the task on the back. 
 
-### `npm test`
+2. We hope to include a Map page, which can be routed to from the user-profile page. Travel-loving users will be able to place their tasks onto the map to show where they have been. 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+3. Once the project is done, we hope to deploy it. 
