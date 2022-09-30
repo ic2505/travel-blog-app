@@ -3,18 +3,6 @@
     {
       "id": 1,
       "name": "maria ameen",
-      "pass": "pass1"
-    },
-    {
-      "id": 2,
-      "name": "ilker ciliv",
-      "pass": "pass2"
-    }
-  ],
-  "userData": [
-    {
-      "id": 1,
-      "name": "maria ameen",
       "locations": [
         {
           "name": "Venice",
