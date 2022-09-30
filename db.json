@@ -1,0 +1,100 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "maria ameen",
+      "pass": "pass1"
+    },
+    {
+      "id": 2,
+      "name": "ilker ciliv",
+      "pass": "pass2"
+    }
+  ],
+  "userData": [
+    {
+      "id": 1,
+      "name": "maria ameen",
+      "locations": [
+        {
+          "name": "Venice",
+          "cover": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/2.png",
+          "photos": [
+            "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/2.png",
+            "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/2.png",
+            "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/2.png"
+          ],
+          "bio": "Omg venice",
+          "summary": "Venice trip",
+          "comments": []
+        },
+        {
+          "name": "Florence",
+          "cover": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png",
+          "photos": [
+            "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/2.png",
+            "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/2.png",
+            "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/2.png"
+          ],
+          "bio": "Omg Florence you guys",
+          "summary": "Florence trip",
+          "comments": []
+        },
+        {
+          "name": "Rome",
+          "cover": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/51.png",
+          "photos": [
+            "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/2.png",
+            "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/2.png",
+            "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/2.png"
+          ],
+          "bio": "Rome! Ugh tourists",
+          "summary": "Rome trip",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "ilker ciliv",
+      "locations": [
+        {
+          "name": "Antarctica",
+          "cover": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/21.png",
+          "photos": [
+            "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/2.png",
+            "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/2.png",
+            "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/2.png"
+          ],
+          "bio": "Omg so cold",
+          "summary": "Antarctica trip",
+          "comments": []
+        },
+        {
+          "name": "Tokyo",
+          "cover": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png",
+          "photos": [
+            "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/2.png",
+            "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/2.png",
+            "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/2.png"
+          ],
+          "bio": "Omg Tokyo, sick",
+          "summary": "Tokyo trip",
+          "comments": []
+        },
+        {
+          "name": "Cuixmala",
+          "cover": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/32.png",
+          "photos": [
+            "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/2.png",
+            "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/2.png",
+            "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/2.png"
+          ],
+          "bio": "Omg Cuixmala, so relaxing",
+          "summary": "Mexico trip",
+          "comments": []
+        }
+      ]
+    }
+  ]
+}
